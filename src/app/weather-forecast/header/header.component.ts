@@ -1,27 +1,31 @@
-import { Component, OnInit } from '@angular/core';
+import {Component} from '@angular/core';
+
 import {Router} from '@angular/router';
+
+import {MatToolbar} from "@angular/material/toolbar";
 
 @Component({
   selector: 'app-header',
+  standalone: true,
   templateUrl: './header.component.html',
+  imports: [
+    MatToolbar
+  ],
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent {
 
   constructor(
-    private router: Router
+    // private router: Router
   ) {
 
   }
 
-  ngOnInit() {
-  }
-
   goToHome() {
-    this.router.navigate(['weather_forecast']);
+    // this.router.navigate(['weather_forecast']);
   }
 
   goToFavorites() {
-    this.router.navigate(['favorites']);
+    // this.router.navigate(['favorites']);
   }
 }

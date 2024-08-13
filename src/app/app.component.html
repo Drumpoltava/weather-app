@@ -1,2 +1,26 @@
-<router-outlet></router-outlet>
+<app-header/>
 
+<app-input/>
+
+<div class="flex-container">
+  <div class="container">
+    <mat-card class="card">
+      <div mat-card-avatar></div>
+    </mat-card>
+      <div class="card-title">
+        <div class="title">Kyiv</div>
+        <div>8^</div>
+      </div>
+  </div>
+
+  <div class="icon">
+    <button mat-icon-button>
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <div class="favorites-button">
+      <button mat-raised-button>Add to favorites</button>
+    </div>
+  </div>
+</div>
+
+<app-cards/>

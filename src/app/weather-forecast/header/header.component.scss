@@ -6,16 +6,16 @@
     display: flex;
     cursor: pointer;
 
-    .home-page-navigation {
+    .home-page {
       display: flex;
       margin-right: 30px;
     }
 
-    .home-page-navigation:hover {
+    .home-page:hover {
       color: cornflowerblue;
     }
 
-    .favorites-page-navigation:hover {
+    .favorites-page:hover {
       color: cornflowerblue;
     }
   }

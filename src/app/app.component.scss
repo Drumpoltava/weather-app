@@ -1,0 +1,33 @@
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+
+  .container {
+    display: flex;
+
+    .card {
+      width: 170px;
+      height: 150px;
+    }
+
+    .card-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 15px;
+
+      .title {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+
+    .favorites-button {
+      margin-left: 5px;
+    }
+  }
+}
