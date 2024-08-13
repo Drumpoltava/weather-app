@@ -1,0 +1,14 @@
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 200px;
+
+  .card {
+    background: whitesmoke;
+  }
+}
+
+.mat-mdc-card-header {
+  width: 150px;
+  height: 100px;
+}

@@ -1,0 +1,22 @@
+.mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+
+  .flex-container {
+    display: flex;
+    cursor: pointer;
+
+    .home-page-navigation {
+      display: flex;
+      margin-right: 30px;
+    }
+
+    .home-page-navigation:hover {
+      color: cornflowerblue;
+    }
+
+    .favorites-page-navigation:hover {
+      color: cornflowerblue;
+    }
+  }
+}
