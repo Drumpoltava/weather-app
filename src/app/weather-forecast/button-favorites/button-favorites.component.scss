@@ -1,14 +1,11 @@
-//.icon {
-//  display: flex;
-//  align-items: center;
-//  position: absolute;
-//  right: 150px;
-//
-//  .favorites-button {
-//    margin-left: 5px;
-//  }
-//}
+:host {
+  display: flex;
+  align-items: center;
 
+  .favorites-button {
+    margin-left: 5px;
+  }
+}
 
 
 

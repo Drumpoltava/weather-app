@@ -1,22 +1,32 @@
 .mat-toolbar {
   display: flex;
   justify-content: space-between;
+  background: radial-gradient(#000, transparent);
 
   .flex-container {
     display: flex;
     cursor: pointer;
 
-    .home-page {
+    img {
+      width: 34px;
+    }
+
+    .title {
       display: flex;
+      align-items: end;
+      margin-left: 5px;
+    }
+
+    .home-page {
       margin-right: 30px;
     }
 
     .home-page:hover {
-      color: cornflowerblue;
+      color:white;
     }
 
     .favorites-page:hover {
-      color: cornflowerblue;
+      color: white;
     }
   }
 }

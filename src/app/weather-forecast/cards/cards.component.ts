@@ -5,14 +5,17 @@ import {MatCard, MatCardContent, MatCardHeader, MatCardTitle} from "@angular/mat
 @Component({
   selector: 'app-cards',
   standalone: true,
-  templateUrl: './cards.component.html',
   imports: [
     MatCard,
     MatCardHeader,
     MatCardContent,
     MatCardTitle
   ],
-  styleUrls: ['./cards.component.scss']
+  templateUrl: './cards.component.html',
+  styleUrls: ['./cards.component.scss'],
+  host: {
+    class: 'flex-container'
+  }
 })
 
 export class CardsComponent {

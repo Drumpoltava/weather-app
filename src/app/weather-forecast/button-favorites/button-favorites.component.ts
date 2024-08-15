@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 
 import {MatButton, MatIconButton} from "@angular/material/button";
 import {MatIcon} from "@angular/material/icon";
-import {MatCard, MatCardAvatar} from "@angular/material/card";
 
 @Component({
   selector: 'app-button-favorites',
@@ -10,12 +9,13 @@ import {MatCard, MatCardAvatar} from "@angular/material/card";
   imports: [
     MatIconButton,
     MatIcon,
-    MatButton,
-    MatCard,
-    MatCardAvatar
+    MatButton
   ],
   templateUrl: './button-favorites.component.html',
-  styleUrl: './button-favorites.component.scss'
+  styleUrl: './button-favorites.component.scss',
+  host: {
+    class: 'flex-container'
+  }
 })
 export class ButtonFavoritesComponent {
 
